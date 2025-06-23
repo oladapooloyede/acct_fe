@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: acct_fe
+  annotations:
+    github.com/project-slug: oladapooloyede/acct_fe
+spec:
+  type: other
+  lifecycle: unknown
+  owner: user:default/oladapooloyede_oladapooloyedegmail.onmicrosoft.com
