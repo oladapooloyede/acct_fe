@@ -7,5 +7,4 @@ metadata:
     dev.azure.com/build-definition: "test"
 spec:
   type: other
-  lifecycle: unknown
-  owner: user:default/oladapooloyede_oladapooloyedegmail.onmicrosoft.com
+  lifecycle: test
