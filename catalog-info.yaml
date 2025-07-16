@@ -10,8 +10,8 @@ spec:
   type: other
   lifecycle: test
   owner: user:default/oladapooloyede_oladapooloyedegmail.onmicrosoft.com
-  ---
-  apiVersion: backstage.io/v1alpha1
+---
+apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: acct_fe_api
