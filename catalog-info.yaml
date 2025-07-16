@@ -4,6 +4,7 @@ metadata:
   name: acct_fe_api
   description: "Acct Fe API"
   annotations:
+    github.com/project-slug: oladapooloyede-org/acct_fe
     dev.azure.com/project: rhdh_ado
     dev.azure.com/build-definition: "test"
 spec:
@@ -29,6 +30,7 @@ kind: Component
 metadata:
   name: acct_fe
   annotations:
+    github.com/project-slug: oladapooloyede-org/acct_fe
     dev.azure.com/project: rhdh_ado
     dev.azure.com/build-definition: "test"
 spec:
