@@ -4,6 +4,8 @@ metadata:
   name: acct_fe
   annotations:
     github.com/project-slug: oladapooloyede/acct_fe
+    dev.azure.com/project: rhdh_ado
+    dev.azure.com/build-definition: 1
 spec:
   type: other
   lifecycle: unknown
