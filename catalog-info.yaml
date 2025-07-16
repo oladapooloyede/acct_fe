@@ -3,7 +3,6 @@ kind: Component
 metadata:
   name: acct_fe
   annotations:
-    github.com/project-slug: oladapooloyede/acct_fe
     dev.azure.com/project: oladapooloyede-azureorg/rhdh_ado
     dev.azure.com/build-definition: "test"
 spec:
