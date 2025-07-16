@@ -1,4 +1,30 @@
 apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: acct_fe_api
+  description: "Acct Fe API"
+  annotations:
+    dev.azure.com/project: rhdh_ado
+    dev.azure.com/build-definition: "test"
+spec:
+  type: grpc
+  lifecycle: production
+  owner: user:default/oladapooloyede_oladapooloyedegmail.onmicrosoft.com
+  system: acct-fe-system
+  definition: |
+    syntax = "proto3";
+    package myorg.mygrpcapi;
+    message MyRequest {
+      string query = 1;
+    }
+    message MyResponse {
+      string result = 1;
+    }
+    service MyGrpcApi {
+      rpc MyMethod (MyRequest) returns (MyResponse);
+    }
+---
+apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: acct_fe
